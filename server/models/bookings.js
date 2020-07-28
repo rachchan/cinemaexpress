@@ -8,7 +8,9 @@ const Bookings = new Schema(
         time: { type: String, required : true },
         customerName: { type: String, required : true },
         numberOfSeats: { type: Number, required : true },
-        ticketType: { type: [String], required : true },
+        children: { type: Number},
+        adults: { type: Number},
+        concessions: { type: Number},
     }
 )
 
