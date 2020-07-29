@@ -9,7 +9,7 @@ const should = chai.should();
 chai.use(chaiHttp);
 
 describe('booking', function() {
-    // booking.collection.drop();
+
 
     beforeEach(function(done) {
         const newBooking = new booking({
@@ -55,12 +55,3 @@ describe('booking', function() {
         })
     })
  });
-//  const body = res.body;
-//  expect(body).to.contain.property('movieTitle');
-//  expect(body).to.contain.property('date');
-//  expect(body).to.contain.property('time');
-//  expect(body).to.contain.property('customerName');
-//  expect(body).to.contain.property('numberOfSeats');
-//  expect(body).to.contain.property('children');
-//  expect(body).to.contain.property('adults');
-//  expect(body).to.contain.property('concessions');
